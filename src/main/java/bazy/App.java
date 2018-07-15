@@ -11,7 +11,7 @@ import javax.persistence.Persistence;
 
 public class App {
 
-    static EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Aplikacja");
+    static EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("AplikacjaPostgreSQL");
     static EntityManager manager = entityManagerFactory.createEntityManager();
 
     public static void main(String[] args) {
